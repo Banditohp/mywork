@@ -30,10 +30,18 @@ def calculate_rug_cost(size, colour_orders, difficulty):
             cost *= 0.95
         elif colour == "blue":
             cost *= 0.9
-        elif colour == "indigo":
-            cost *= 0.92
-        elif colour == "violet":
-            cost *= 0.88
+        elif colour == "white":
+            cost *= 0.8
+        elif colour == "purple":
+            cost *= 0.8
+        elif colour == "brown":
+            cost *= 0.8
+        elif colour == "gold":
+            cost *= 0.85
+        elif colour == "grey":
+            cost *= 0.85
+        
+        
 
         total_cost += cost
 
