@@ -3,9 +3,9 @@ import streamlit as st
 # --- CALCULATION FUNCTION ---
 def calculate_rug_cost(size, colour_orders, difficulty):
     base_prices = {
-        "Small": 50,
-        "Medium": 100,
-        "Large": 150
+        "Small": 100,
+        "Medium": 175,
+        "Large": 250
     }
 
     difficulty_multiplier = {
