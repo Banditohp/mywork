@@ -21,25 +21,25 @@ def calculate_rug_cost(size, colour_orders, difficulty):
 
         # Rainbow colour pricing rules
         if colour == "red":
-            cost *= 0.8
+            cost *= 0.4
         elif colour == "orange":
-            cost *= 0.85
+            cost *= 0.4
         elif colour == "yellow":
-            cost *= 0.9
+            cost *= 0.4
         elif colour == "green":
-            cost *= 0.95
+            cost *= 0.4
         elif colour == "blue":
-            cost *= 0.9
+            cost *= 0.4
         elif colour == "white":
-            cost *= 0.8
+            cost *= 0.4
         elif colour == "purple":
-            cost *= 0.8
+            cost *= 0.4
         elif colour == "brown":
-            cost *= 0.8
+            cost *= 0.4
         elif colour == "gold":
-            cost *= 0.85
+            cost *= 0.5
         elif colour == "grey":
-            cost *= 0.85
+            cost *= 0.5
         
         
 
