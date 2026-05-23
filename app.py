@@ -56,12 +56,12 @@ st.title("🧶 Rug Cost Calculator")
 
 st.subheader("Select Rug Options")
 
-size = st.selectbox("Rug Size", ["small", "medium", "large"])
-difficulty = st.selectbox("Difficulty", ["easy", "regular", "hard"])
+size = st.selectbox("Rug Size", ["Small", "Medium", "Large"])
+difficulty = st.selectbox("Difficulty", ["Easy", "Regular", "Hard"])
 
 st.subheader("Enter Quantity per Colour")
 
-colours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+colours = ["red", "orange", "yellow", "green", "blue", "white", "purple", "brown", "gold", "grey"]
 colour_orders = {}
 
 for colour in colours:
